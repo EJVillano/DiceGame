@@ -6,9 +6,9 @@ document.querySelector(".img1").setAttribute("src", "./images/dice"+randomNumber
 document.querySelector(".img2").setAttribute("src", "./images/dice"+randomNumber2+".png");
 
 if(randomNumber1 > randomNumber2){
-    document.getElementById("result").textContent ="(^▽^)👍 Winner is player 1 ";
+    document.getElementById("result").textContent ="(^▽^)👍 Mag manila ka ";
 }else if (randomNumber1 < randomNumber2){
-    document.getElementById("result").textContent ="Winner is player 2 👍(^▽^)"; 
+    document.getElementById("result").textContent ="mag lucena ka 👍(^▽^)"; 
 }else{
     document.getElementById("result").textContent ="Refresh me"
 }
